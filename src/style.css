@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #0075ff;
+  --color-bg: #001427;
+
+  --breakpoint-mobile: 430px;
+  --breakpoint-1240: 1240px;
+
+  --font-Golos: "Golos Text", sans-serif;
+  --font-Space: "Space Grotesk", sans-serif;
+  --font-Tektur: "Tektur", sans-serif;
+  --font-Roboto: "Roboto", sans-serif;
+  --font-Inter: "Inter", sans-serif;
+  --font-Days: "Days One", sans-serif;
+}
