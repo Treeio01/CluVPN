@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mt-[120px] gap-12 w-full max-w-[1275px]">
+  <div class="flex mt-[120px] gap-12 w-full max-w-[1275px] ">
     <span
       class="text-white text-[48px] font-semibold leading-[100%] tracking-0"
     >

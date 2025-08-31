@@ -1,5 +1,5 @@
 <template>
-    <div class="flex mt-[109px] flex-col gap-[86px] w-full max-w-[1275px]">
+    <div class="flex mt-[109px] flex-col gap-[86px] w-full max-w-[1275px] ">
         <span class="text-white font-Golos font-semibold text-[40px] leading-[19px]">
             <span class="text-primary">
                 Преимущества

@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex w-full max-w-[1273px] items-center justify-between py-3 mt-[22px]"
+    class="flex w-full px-[30px]  mobile:px-[53px] 1025:px-[83px] items-center justify-between py-3 pt-[51px] mobile:pt-[40px] 1025:pt-[22px]"
   >
     <img src="../../assets/img/logo.svg" class="max-w-[124px] mobile:max-w-165px" alt="" />
     <ul
-      class="w-full lg:flex hidden max-w-[541px] rounded-[15px] border border-white/40 hover:border-primary duration-300 ease-in-out transition-colors py-1 items-center justify-center gap-2.5"
+      class="w-full 1025:flex hidden max-w-[541px] rounded-[15px] border border-white/40 hover:border-primary duration-300 ease-in-out transition-colors py-1 items-center justify-center gap-2.5"
     >
       <RouterLink
         to="#"
@@ -23,7 +23,7 @@
         Вопросы
       </RouterLink>
     </ul>
-    <div class="gap-4 items-center lg:flex hidden">
+    <div class="gap-4 items-center 1025:flex hidden">
       <button
         class="bg-transparent py-2 px-4 rounded-[6px] cursor-pointer hover:bg-white/10 transition-colors ease-in-out duration-300"
       >
@@ -43,7 +43,7 @@
         </span>
       </button>
     </div>
-    <button class="py-1.5 px-1.5  mobile:px-[9px] lg:hidden flex cursor-pointer ">
+    <button class="py-1.5 px-1.5  mobile:px-[9px] 1025:hidden flex cursor-pointer ">
       <img src="../../assets/img/menu.svg" class="max-w-[32px] max-h-[26px] mobile:max-w-[49px] mobile:max-h-[34px]" alt="" />
     </button>
   </div>

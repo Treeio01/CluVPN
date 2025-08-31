@@ -5,10 +5,14 @@
       <Header></Header>
       <Main></Main>
       <Conditions></Conditions>
-      <div class="flex flex-col items-center w-full relative top-[-198px] bg-bg z-30 rounded-t-[100px]">
-        <Prices></Prices>
-        <Advantages></Advantages>
-        <FAQ></FAQ>
+      <div class="flex flex-col items-center w-full pt-[61px] bg-white z-30">
+        <div class="flex flex-col items-center w-full rounded-t-[100px] pb-[54px] bg-bg">
+          <Prices></Prices>
+          <Advantages></Advantages>
+          <FAQ></FAQ>
+          <Banner></Banner>
+          <Footer></Footer>
+        </div>
       </div>
 
     </div>
@@ -21,4 +25,6 @@ import Conditions from "../components/Landing/Sections/Conditions.vue"
 import Prices from "../components/Landing/Sections/Prices.vue"
 import Advantages from "../components/Landing/Sections/Advantages.vue";
 import FAQ from "../components/Landing/Sections/FAQ.vue";
+import Banner from "../components/Landing/Sections/Banner.vue";
+import Footer from "../components/Landing/Sections/Footer.vue"
 </script>
