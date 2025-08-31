@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex w-full max-w-[1273px] px-[53px] items-center justify-between py-3 mt-[22px]"
+    class="flex w-full max-w-[1273px] items-center justify-between py-3 mt-[22px]"
   >
     <img src="../../assets/img/logo.svg" class="max-w-[124px] mobile:max-w-165px" alt="" />
     <ul
