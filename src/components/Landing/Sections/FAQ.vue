@@ -1,11 +1,11 @@
 <template>
-  <div class="flex mt-[120px] gap-12 w-full max-w-[1275px] ">
+  <div id="faq" class="flex flex-col mobile:flex-row mt-[70px] mobile:mt-[120px] gap-12 w-full px-[30px] mobile:px-[50px] 1025:px-0 1025:max-w-[1275px] ">
     <span
-      class="text-white text-[48px] font-semibold leading-[100%] tracking-0"
+      class="text-white text-[33px] mobile:text-[42px] 1025:text-[48px] font-semibold leading-[100%] tracking-0"
     >
       Ответы на частые вопросы
     </span>
-    <div class="flex px-[34px] flex-col w-full">
+    <div class="flex 1025:px-[34px] 1025:max-w-full mobile:max-w-[452px] flex-col w-full">
       <div
         class="flex py-[17px] cursor-pointer flex-col"
         v-for="(q, i) in questions"
@@ -14,7 +14,7 @@
       >
         <div class="flex items-center justify-between">
           <span
-            class="text-white font-Golos text-[25px] leading-[96%] tracking-0 font-semibold"
+            class="text-white font-Golos text-[18px] mobile:text-[25px] leading-[96%] tracking-0 font-semibold"
           >
             {{ q.question }}
           </span>
@@ -41,7 +41,7 @@
           @leave="onLeave"
         >
           <div class="mt-[15px]" v-show="q.open">
-            <span class="text-white text-xl font-Golos leading-[40px]">
+            <span class="text-white text-sm mobile:text-xl font-Golos leading-[40px]">
               {{ q.answer }}
             </span>
           </div>
@@ -55,28 +55,28 @@ import { ref } from "vue";
 const questions = ref([
   {
     question: "Как подключить VPN?",
-    answer: "Ответ1",
+    answer: "После покупки или начала пробного периода вы сразу получаете ключ и можете настроить его по инструкции.",
     open: false,
   },
   {
     question: "Что делать, если VPN сломается?",
-    answer: "Ответ2",
+    answer: "Наш VPN надёжен и стабилен. Если возникнут трудности, команда поддержки всегда поможет.",
     open: false,
   },
 
   {
     question: "Безопасен ли ваш VPN?",
-    answer: "Ответ3",
+    answer: "Мы используем лучшие протоколы VLESS и собственные доработки - ваша безопасность гарантирована.",
     open: false,
   },
   {
     question: "Есть ли у вас автопродление?",
-    answer: "Ответ4",
+    answer: "Автопродления нет: вы сами пополняете баланс, когда удобно, и подписка продлевается.",
     open: false,
   },
   {
     question: "Зачем надо платить?",
-    answer: "Ответ5",
+    answer: "В мире VPN хватает тех, кто продаёт чужие данные. У нас вы платите лишь цену чашки кофе - за безопасность и скорость.",
     open: false,
   },
 ]);

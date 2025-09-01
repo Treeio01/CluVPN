@@ -6,7 +6,7 @@
       <Main></Main>
       <Conditions></Conditions>
       <div class="flex flex-col items-center w-full pt-[61px] bg-white z-30">
-        <div class="flex flex-col items-center w-full rounded-t-[100px] pb-[54px] bg-bg">
+        <div class="flex flex-col items-center w-full  rounded-t-[50px] mobile:rounded-t-[100px] pb-[54px] bg-bg">
           <Prices></Prices>
           <Advantages></Advantages>
           <FAQ></FAQ>
