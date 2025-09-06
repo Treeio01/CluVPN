@@ -28,7 +28,7 @@
       </span>
     </div>
     <div
-      class="flex mobile:flex-row flex-col w-full mt-[25px] mobile:mt-[73px] gap-[34px] 1025:gap-[56px]"
+      class="flex mobile:flex-row 1025:flex-col flex-col w-full mt-[25px] mobile:mt-[73px] gap-[34px] 1025:gap-[56px]"
     >
       <div
         class="flex 1025:flex-row mobile:flex-col flex-col w-full gap-[42px] 1025:gap-[33px]"
