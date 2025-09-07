@@ -7,6 +7,7 @@ const props = defineProps({
   link: String,
   linkText: String,
 });
+
 const emit = defineEmits(['close']);
 
 const onKey = (e) => {
@@ -27,7 +28,7 @@ onBeforeUnmount(() => document.removeEventListener('keydown', onKey));
       <div
           role="dialog" aria-modal="true"
           class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
-               w-[min(700px,92vw)] bg-[#001C47] rounded-[78px] pb-[35px] pt-[18px] px-[39px] shadow-xl"
+               w-[min(700px,92vw)] flex flex-col items-center bg-[#001C47] rounded-[78px] pb-[35px] pt-[18px] px-[39px] shadow-xl"
           @click.stop
       >
         <div class="flex items-start justify-between gap-4">

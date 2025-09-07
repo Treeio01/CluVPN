@@ -48,7 +48,7 @@ const questions = ref([
           </div>
           <div class="flex flex-col justify-between w-full max-w-[310px]">
             <div class="flex bg-primary rounded-[55px] py-[35px] px-[27px]">
-              <div class="flex justify-between items-center py-[24px] px-[34px] w-full bg-panel-blue/53 rounded-[25px]">
+              <RouterLink to="/sub" class="flex justify-between items-center py-[24px] px-[34px] w-full bg-panel-blue/53 rounded-[25px]">
 <span class="text-white font-Golos font-medium text-[26px] leading-[26px] ">
   Купить
 подписку
@@ -59,7 +59,7 @@ const questions = ref([
                         stroke-linejoin="round"/>
                 </svg>
 
-              </div>
+              </RouterLink>
             </div>
             <div class="flex bg-primary rounded-[55px] py-[35px] px-[27px] w-full">
               <div

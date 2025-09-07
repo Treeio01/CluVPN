@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import {ref} from 'vue'
 import Modal from './Modal.vue'
 
 // лучше типизировать
@@ -27,7 +27,7 @@ const isOpen = ref(false)
     </svg>
 
     <div class="flex gap-[2px] flex-col text-left">
-      <span class="text-white font-medium leading-normal font-Golos text-[17px]">
+      <span class="text-white font-medium  leading-normal font-Golos text-[17px]">
         {{ tariff.time }}
       </span>
       <span class="font-Golos leading-normal text-[13px] font-semibold"

@@ -53,10 +53,10 @@ const tariffs = ref([
 <template>
   <LayoutPanel>
     <template #content>
-      <div class="flex gap-12 w-full justify-center">
+      <div class="flex 1025:flex-row flex-col gap-12 w-full justify-center">
         <div
-            class="flex flex-col items-center gap-[62px] w-full max-w-[620px] bg-panel-blue/92 rounded-[70px] pt-12 px-12 pb-[53px]">
-          <span class="p-2.5 text-center leading-[22px] text-white font-Days text-[25px] leading-normal">
+            class="flex flex-col items-center gap-[24px] 1025:gap-[62px] w-full 1025:max-w-[620px] bg-panel-blue/92 rounded-[70px] pt-12 px-12 pb-[53px]">
+          <span class="p-2.5 text-center leading-[22px] text-white font-Days text-[25px]">
             {{ user.isActiveSub ? "У вас уже есть активная подписка Но вы можете сменить тариф" : "Платные подписки" }}
           </span>
           <div class="flex flex-col w-full gap-[45px]">
@@ -72,8 +72,8 @@ const tariffs = ref([
           </div>
 
         </div>
-        <div class="flex flex-col gap-[49px] w-full max-w-[398px]">
-          <div class="flex flex-col items-center  pb-2.5 w-full overflow-hidden bg-panel-blue rounded-[60px] gap-3">
+        <div class="flex flex-row 1025:flex-col gap-[40px] w-full 1025:max-w-[398px]">
+          <div class="flex flex-col items-center h-full  pb-2.5 w-full overflow-hidden bg-panel-blue rounded-[60px] gap-3">
             <div class="flex bg-primary rounded-[30px] px-6 pt-[52px] pb-[66px]">
               <span class="text-white text-center p-2.5 font-Days text-[20px]">
                 Хотите протестировать VPN

@@ -1,6 +1,7 @@
 <script setup>
 import LayoutPanel from "../../components/Panel/LayoutPanel.vue";
 import {fetchUser} from "../../services/user-service.js";
+import Modal from "../../components/Panel/Modal.vue";
 
 const user = fetchUser();
 </script>
@@ -8,7 +9,7 @@ const user = fetchUser();
 <template>
   <LayoutPanel>
     <template #content>
-      <div class="flex flex-col items-center w-full gap-[99px] max-w-[1043px]">
+      <div class="flex flex-col items-center w-full gap-[89px] 1025:gap-[99px] max-w-[1043px]">
         <div
             class="flex w-full items-center gap-[35px] flex-col h-max  bg-panel-blue rounded-[70px] py-[35px] px-[67px] pb-[61px]">
   <span class="text-white p-2.5 font-Golos font-medium text-[32px] leading-normal">
@@ -72,8 +73,8 @@ const user = fetchUser();
         </div>
         <div class="flex gap-[51px] w-full">
           <div
-              class="flex bg-primary rounded-[60px] overflow-hidden pt-[38px] w-full max-w-[546px] flex-col items-center gap-[31px]">
-            <span class="text-white p-2.5 font-Days text-[32px]">
+              class="flex  bg-primary rounded-[60px] overflow-hidden pt-[38px] w-full max-w-[546px] flex-col items-center gap-[31px]">
+            <span class="text-white text-center p-2.5 font-Days text-[32px]">
               Реферальная программа
             </span>
             <div class="flex items-center bg-panel-blue/80 rounded-[60px] py-3 px-[33px] w-full flex-col gap-[11px]">
@@ -114,6 +115,7 @@ const user = fetchUser();
       </div>
     </template>
   </LayoutPanel>
+
 </template>
 
 <style scoped>

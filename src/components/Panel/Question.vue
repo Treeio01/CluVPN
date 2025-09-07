@@ -11,9 +11,9 @@ const close = () => emit('update:open', false);
 </script>
 
 <template>
-  <div class="flex cursor-pointer flex-col bg-primary/60 w-full rounded-[20px] py-[21px] px-[25px]">
-    <button type="button" class="flex w-full items-center justify-between gap-2" @click="toggle">
-      <span class="text-white font-Golos text-xl font-medium leading-[18px] tracking-[-0.02em]">
+  <div class="flex cursor-pointer flex-col bg-primary/60 w-full rounded-[20px] py-[21px] px-[25px]" @click="toggle">
+    <button type="button" class="flex w-full items-center justify-between gap-2" >
+      <span class="text-white text-left font-Golos text-xl font-medium leading-[18px] tracking-[-0.02em]">
         {{ question.title }}
       </span>
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">

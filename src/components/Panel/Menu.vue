@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between px-[15px] py-5 w-full max-w-[264px] bg-[#060B26] rounded-[40px]">
+  <div class="hidden 1025:flex  flex-col justify-between px-[15px] py-5 w-full max-w-[264px] bg-[#060B26] rounded-[40px]">
     <div class="flex flex-col">
 
       <img src="../../assets/img/logo.svg" class="max-w-[120px] ml-[24px]" alt=""/>
@@ -202,6 +202,8 @@
       </button>
     </div>
   </div>
+
+  <div class="flex absolute"></div>
 </template>
 <style>
 </style>

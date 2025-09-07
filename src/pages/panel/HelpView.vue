@@ -111,7 +111,7 @@ const questions2 = ref([
           </div>
         </div>
         <span class="p-2.5 text-white font-Golos text-[17px] ">
-          Не смогли найти ответ на свой вопрос? <RouterLink to="/support" class="underline"> Обратитесь в поддержку </RouterLink>s
+          Не смогли найти ответ на свой вопрос? <RouterLink to="/support" class="underline"> Обратитесь в поддержку </RouterLink>
         </span>
       </div>
     </template>
