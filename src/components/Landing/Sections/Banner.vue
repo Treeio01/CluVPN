@@ -20,15 +20,15 @@
       >
         Полный бесплатный доступ ко всем платным функциям на 5 дней
       </span>
-      <button 
-        class="bg-white mobile:order-2 order-1 rounded-[26px] py-[17px] 1025:py-[23px] px-[95px]"
+      <RouterLink to="/login" 
+        class="bg-white hover:opacity-75 transition-opacity ease-in-out duration-300 mobile:order-2 order-1 rounded-[26px] py-[17px] 1025:py-[23px] px-[95px]"
       >
         <span
           class="text-primary font-Inter text-[21px] 1025:text-[23px] leading-[20px] tracking-0"
         >
           Подключить
         </span>
-      </button>
+      </RouterLink>
     </div>
   </div>
 </template>

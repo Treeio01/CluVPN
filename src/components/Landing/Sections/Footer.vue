@@ -3,9 +3,9 @@
         <div class="flex items-start gap-4 mobile:gap-[98px] w-full max-w-[1275px]">
             <img src="../../../assets/img/logo.svg" alt="">
             <div class="flex flex-col gap-4 w-full">
-                <a class="text-white mobile:text-left text-right min-h-[31px] font-Inter font-semibold text-sm leading-[20px] tracking-0">
+                <span class="text-white mobile:text-left text-right min-h-[31px] font-Inter font-semibold text-sm leading-[20px] tracking-0">
                     Контакты
-                </a>
+                </span>
                 <a class="text-white mobile:text-left text-right font-Inter min-h-[20px] text-sm leading-[20px] tracking-0">
                     Поддержка
                 </a>

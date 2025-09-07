@@ -58,9 +58,9 @@ const questions = ref([
   <LayoutPanel>
     <template #content>
       <div class="flex flex-col gap-20 w-full max-w-[1044px]">
-        <div class="flex w-full gap-[33px] bg-panel-blue rounded-[70px] border border-[#5E5E5E]/46">
+        <div class="flex mobile:flex-row flex-col w-full gap-[33px] bg-panel-blue rounded-[70px] border border-[#5E5E5E]/46">
           <div
-              class="flex flex-col items-center w-full max-w-[510px] gap-[30px] rounded-[70px] border border-[#5E5E5E]/46 py-[38px] px-[43px]">
+              class="flex flex-col items-center w-full max-w-[510px] gap-[30px] rounded-[70px] border border-[#5E5E5E]/46 py-[38px] px-[23px] mobile:px-[43px]">
   <span class="text-white font-Golos font-semibold text-[27px] leading-normal tracking-[-0.02em]">
     Ваши подписки
   </span>
@@ -120,12 +120,12 @@ const questions = ref([
   К сожалению, у вас нет активных подписок
 </span>
             </div>
-            <button
-                class="bg-primary hover:opacity-75 transition-opacity  ease-in-out duration-300 cursor-pointer rounded-[25px] p-4.5 w-full">
+            <RouterLink to="/sub"
+                class="bg-primary flex justify-center hover:opacity-75 transition-opacity  ease-in-out duration-300 cursor-pointer rounded-[25px] p-4.5 w-full">
               <span class="text-white font-Golos font-semibold text-[21px] leading-normal tracking-[-0.02em]">
 Попробовать бесплатно
               </span>
-            </button>
+            </RouterLink>
           </div>
 
           <div class="flex flex-col relative gap-[9px]  w-full py-[25px] pr-[38px]">
@@ -154,7 +154,7 @@ const questions = ref([
           </div>
 
         </div>
-        <div class="flex gap-[45px]">
+        <div class="flex mobile:flex-row flex-col gap-[45px]">
           <div
               class="flex items-center bg-primary/60 rounded-[70px] py-[25px] gap-[14px] flex-col w-full max-w-[371px]">
            <span class="flex py-[10px] font-Golos font-semibold text-[27px] text-white ">

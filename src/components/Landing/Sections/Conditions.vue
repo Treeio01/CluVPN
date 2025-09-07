@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div id="conditions"
     class="flex mobile:mt-14 flex-col items-center w-full max-w-[1440px] bg-white rounded-t-[100px] pt-[32px] mobile:pt-[70px] px-[30px] mobile:px-[50px] 1025:px-[82px]"
   >
     <h1
@@ -99,15 +99,15 @@
             />
           </div>
 
-          <button
-            class="bg-primary max-w-[370px] py-[16px] mobile:py-[22px] w-full mobile:px-[93px] rounded-[22px] hover:bg-primary/75 transition-colors ease duration-300"
+          <RouterLink  to="/login"
+            class="bg-primary cursor-pointer max-w-[370px] py-[16px] mobile:py-[22px] w-full mobile:px-[93px] rounded-[22px] hover:bg-primary/75 transition-colors ease duration-300"
           >
             <span
               class="text-white font-Inter font-bold text-[16px] mobile:text-[23px] leading-[20px] tracking-0"
             >
               Подключиться
             </span>
-          </button>
+          </RouterLink>
         </div>
         <div
           class="flex w-full relative flex-col gap-[14px] mobile:gap-[29px] mobile:max-w-full 1025:max-w-[403px] bg-[#F5F7FA] rounded-[30px] mobile:rounded-[50px] 1025:rounded-[80px] mobile:pb-[63px] 1025:pb-[250px] py-[25px] mobile:py-[36px] 1025:py-[45px]  pl-[38px] mobile:pl-[68px] 1025:pl-[63px] pr-[29px] mobile:pr-[77px]"
@@ -197,4 +197,7 @@
     </div>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+
+</script>

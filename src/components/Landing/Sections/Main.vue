@@ -15,18 +15,18 @@
       </span>
     </div>
     <div class="flex gap-3 mobile:flex-row flex-col mobile:gap-[25px] items-center mt-[193px] mobile:mt-[45px]">
-      <button
-        class="bg-primary mobile:order-1 order-2 mobile:w-max w-full rounded-[20px] py-[15px] mobile:py-6 px-9 flex items-center justify-center">
+      <RouterLink to="/login"
+        class="bg-primary hover:opacity-75 transition-opacity ease-in-out duration-300 mobile:order-1 order-2 mobile:w-max w-full rounded-[20px] py-[15px] mobile:py-6 px-9 flex items-center justify-center">
         <span class="text-white font-Days text-lg leading-[20px] tracking-[-12%]">
           Купить от 200р / мес
         </span>
-      </button>
-      <button
-        class="bg-white mobile:order-2 order-1 mobile:w-max w-full rounded-[20px] py-[15px] mobile:py-6 px-[21px] flex items-center justify-center">
+      </RouterLink>
+      <RouterLink to="/login"
+        class="bg-white hover:opacity-75 transition-opacity ease-in-out duration-300 mobile:order-2 order-1 mobile:w-max w-full rounded-[20px] py-[15px] mobile:py-6 px-[21px] flex items-center justify-center">
         <span class="text-primary font-Days text-lg leading-[20px] tracking-[-12%]">
           Попробовать бесплатно
         </span>
-      </button>
+      </RouterLink>
     </div>
     <div class="flex mt-[10px] mobile:mt-[34px] items-center">
       <span class="text-[#CCCCCC] font-Roboto text-[12px] mobile:text-[17px] leading-[20px] tracking-[0.07em]">
@@ -45,7 +45,7 @@
         class="text-white font-Golos font-semibold text-[17px] 1025:text-[30px] mobile:text-[33px] leading-[17px] mobile:leading-[33px] tracking-[-0.03em] max-w-[267px] mobile:max-w-[420px]">
         об этом и многом другом рассказали дальше
       </span>
-      <button class="bg-white rounded-[10px]  mobile:rounded-[20px] 1025:rounded-[25px] py-2 mobile:py-[18px] 1025:py-[23px] w-full max-w-[360px]">
+      <button onclick="window.location.href='#conditions'" class="bg-white cursor-pointer hover:opacity-75 transition-opacity ease-in-out duration-300 rounded-[10px]  mobile:rounded-[20px] 1025:rounded-[25px] py-2 mobile:py-[18px] 1025:py-[23px] w-full max-w-[360px]">
         <span class="text-primary font-Inter font-bold text-[20px] mobile:text-[28px] leading-[20px] tracking-0">
           Смотреть
         </span>
@@ -53,4 +53,7 @@
     </div>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+
+</script>

@@ -1,8 +1,8 @@
 <template>
-  <div class="flex w-full gap-[46px] 1025:gap-[58px] justify-between min-h-screen bg-[#1A1F37] py-[30px] px-[40px]">
+  <div class="flex w-full gap-[46px] 1025:gap-[58px] justify-between min-h-screen bg-[#1A1F37] py-[14px] sm:py-[30px] px-[14px] sm:px-[40px]">
     <Menu v-if="!hideMenu"></Menu>
     <Transition>
-      <div class="flex w-full justify-center">
+      <div class="flex w-full justify-center pb-[200px]">
         <slot name="content"></slot>
       </div>
     </Transition>

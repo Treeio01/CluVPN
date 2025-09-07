@@ -18,18 +18,30 @@
     --font-Days: "Days One", sans-serif;
 }
 
+.mobile-list .router-link-active svg path {
+    @apply stroke-primary
+}
+
+.router-link-active span {
+    @apply !flex
+}
+
 .menu-list .router-link-active div {
     @apply bg-primary
 }
+
 .menu-list-2.router-link-active svg path {
     @apply fill-primary
 }
+
 .menu-list-3.router-link-active svg path {
     @apply stroke-primary
 }
+
 .menu-list-3.router-link-active span {
     @apply text-primary
 }
+
 .menu-list .router-link-active svg path {
     @apply fill-white;
 }
@@ -42,7 +54,23 @@
 }
 
 /* WebKit/Chromium */
-*::-webkit-scrollbar { width: 6px; height: 6px; background: transparent; }
-*::-webkit-scrollbar-thumb { background: var(--color-primary); border-radius: 9999px; }
-*::-webkit-scrollbar-track { background: transparent; }
-*::-webkit-scrollbar-corner { background: transparent; } /* убирает «белый квадратик» в углу */
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 9999px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* убирает «белый квадратик» в углу */

@@ -187,13 +187,13 @@
         </span>
       </div>
     </div>
-    <button class="mt-[28px] w-full p-[23px] bg-primary rounded-[26px]">
+    <RouterLink to="/login" class="mt-[28px] w-full p-[23px] flex justify-center hover:opacity-75 transition-opacity ease-in-out duration-300 bg-primary rounded-[26px]">
       <span
         class="text-white font-Inter font-bold text-2xl leading-[20px] tracking-0"
       >
         Подключить
       </span>
-    </button>
+    </RouterLink>
   </div>
 </template>
 <script setup>

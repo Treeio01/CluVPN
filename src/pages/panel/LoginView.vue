@@ -52,7 +52,7 @@
                 Продолжая, вы соглашаетесь с <span class="text-primary"> политикой конфиденциальности</span>
               </span>
             </div>
-            <button class="flex items-center justify-center py-[15px] bg-primary w-full rounded-[15px]">
+            <button class="flex items-center justify-center py-[15px] hover:opacity-75 transition-opacity ease-in-out duration-300 cursor-pointer bg-primary w-full rounded-[15px]">
               <span class="text-white font-Golos font-light text-[31px]">
                 Начать
               </span>

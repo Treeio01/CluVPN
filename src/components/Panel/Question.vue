@@ -12,7 +12,7 @@ const close = () => emit('update:open', false);
 
 <template>
   <div class="flex cursor-pointer flex-col bg-primary/60 w-full rounded-[20px] py-[21px] px-[25px]" @click="toggle">
-    <button type="button" class="flex w-full items-center justify-between gap-2" >
+    <button type="button" class="flex w-full cursor-pointer items-center justify-between gap-2" >
       <span class="text-white text-left font-Golos text-xl font-medium leading-[18px] tracking-[-0.02em]">
         {{ question.title }}
       </span>
