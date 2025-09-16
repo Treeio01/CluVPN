@@ -55,12 +55,12 @@ const tariffs = ref([
     <template #content>
       <div class="flex 1025:flex-row flex-col gap-12 w-full justify-center">
         <div
-          class="flex flex-col items-center gap-[15px] mobile:gap-[24px] 1025:gap-[62px] w-full 1025:max-w-[620px] bg-panel-blue/92 rounded-[70px] pt-[41px] mobile:pt-12 px-[19px] mobile:px-12 pb-[45px] mobile:pb-[53px]">
+          class="flex flex-col items-center gap-[15px] mobile:gap-[24px] 1025:gap-[62px] w-full 1025:max-w-[620px] bg-panel-blue/92 rounded-[70px] pt-[41px] md:pt-12 px-[19px] md:px-12 pb-[45px] md:pb-[53px]">
           <span class="p-2.5 text-center leading-[22px] text-white font-Days text-[25px]">
             {{ user.isActiveSub ? "У вас уже есть активная подписка Но вы можете сменить тариф" : "Платные подписки" }}
           </span>
           <div class="flex flex-col w-full gap-[45px]">
-            <div class="flex bg-primary/14 rounded-[50px] py-[31px] mobile:py-[45px] px-3.5 mobile:px-10">
+            <div class="flex bg-primary/14 rounded-[50px] py-[20px] md:py-[45px] px-2 md:px-10">
               <Tariffs :tariffs="tariffs" class="gap-[10px] 1025:gap-6" />
             </div>
             <div class="flex flex-col gap-4 items-center">
@@ -72,7 +72,7 @@ const tariffs = ref([
           </div>
 
         </div>
-        <div class="flex flex-col sm:flex-row 1025:flex-col gap-[40px] w-full 1025:max-w-[398px]">
+        <div class="flex flex-col 1025:!flex-col sm:flex-row gap-[40px] w-full 1025:max-w-[398px]">
           <div
             class="flex flex-col items-center h-full  pb-2.5 w-full overflow-hidden bg-panel-blue rounded-[60px] gap-3">
             <div class="flex bg-primary rounded-[30px] px-6 pt-[52px] pb-[66px]">

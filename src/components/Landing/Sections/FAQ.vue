@@ -1,5 +1,10 @@
 <template>
-  <div id="faq" class="flex flex-col mobile:flex-row mt-[70px] mobile:mt-[120px] gap-12 w-full px-[30px] mobile:px-[50px] 1025:px-0 1025:max-w-[1275px] ">
+  <div
+    id="faq"
+    class="flex flex-col sm:flex-row mt-[70px] mobile:mt-[120px] gap-12 w-full px-[30px] mobile:px-[50px] 1025:px-0 1025:max-w-[1275px] "
+    data-aos="fade-up"
+    data-aos-duration="1000"
+  >
     <span
       class="text-white text-[33px] mobile:text-[42px] 1025:text-[48px] font-semibold leading-[100%] tracking-0"
     >

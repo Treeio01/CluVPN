@@ -58,9 +58,9 @@ const questions = ref([
   <LayoutPanel>
     <template #content>
       <div class="flex flex-col gap-20 w-full max-w-[1044px]">
-        <div class="flex mobile:flex-row flex-col w-full gap-[33px] bg-panel-blue rounded-[70px] border border-[#5E5E5E]/46">
+        <div class="flex md:flex-row flex-col w-full gap-[33px] bg-panel-blue rounded-[70px] border border-[#5E5E5E]/46">
           <div
-              class="flex flex-col items-center w-full max-w-[510px] gap-[30px] rounded-[70px] border border-[#5E5E5E]/46 py-[38px] px-[23px] mobile:px-[43px]">
+              class="flex flex-col items-center w-full max-w-full md:max-w-[510px] gap-[30px] rounded-[70px] border border-[#5E5E5E]/46 py-[38px] px-[23px] mobile:px-[43px]">
   <span class="text-white font-Golos font-semibold text-[27px] leading-normal tracking-[-0.02em]">
     Ваши подписки
   </span>
@@ -128,8 +128,8 @@ const questions = ref([
             </RouterLink>
           </div>
 
-          <div class="flex flex-col relative gap-[9px]  w-full py-[25px] pr-[38px]">
-            <svg class="absolute right-[38px] top-[25px]" width="52" height="52" viewBox="0 0 52 52" fill="none"
+          <div class="flex flex-col relative gap-[9px]  w-full py-[25px] pr-[20px] pl-[20px] md:pr-[38px]">
+            <svg class="absolute right-[38px] top-[25px] md:block hidden" width="52" height="52" viewBox="0 0 52 52" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
               <path
                   d="M40.1697 8.92667L28.2531 4.46334C27.0181 4.00834 25.0031 4.00834 23.7681 4.46334L11.8514 8.92667C9.55474 9.79334 7.69141 12.48 7.69141 14.9283V32.4783C7.69141 34.2333 8.83974 36.5517 10.2481 37.5917L22.1647 46.4967C24.2664 48.0783 27.7114 48.0783 29.8131 46.4967L41.7297 37.5917C43.1381 36.53 44.2864 34.2333 44.2864 32.4783V14.9283C44.3081 12.48 42.4447 9.79334 40.1697 8.92667ZM31.8064 30.2683C31.4814 30.5933 31.0697 30.745 30.6581 30.745C30.2464 30.745 29.8347 30.5933 29.5097 30.2683L26.0647 26.8233L22.5114 30.3767C22.1864 30.7017 21.7747 30.8533 21.3631 30.8533C20.9514 30.8533 20.5397 30.7017 20.2147 30.3767C19.5864 29.7483 19.5864 28.7083 20.2147 28.08L23.7681 24.5267L20.3014 21.06C19.6731 20.4317 19.6731 19.3917 20.3014 18.7633C20.9297 18.135 21.9697 18.135 22.5981 18.7633L26.0431 22.2083L29.4014 18.85C30.0297 18.2217 31.0697 18.2217 31.6981 18.85C32.3264 19.4783 32.3264 20.5183 31.6981 21.1467L28.3397 24.505L31.7847 27.95C32.4347 28.6 32.4347 29.6183 31.8064 30.2683Z"
@@ -154,10 +154,10 @@ const questions = ref([
           </div>
 
         </div>
-        <div class="flex mobile:flex-row flex-col gap-[45px]">
+        <div class="flex md:flex-row flex-col gap-[45px]">
           <div
-              class="flex items-center bg-primary/60 rounded-[70px] py-[25px] gap-[14px] flex-col w-full max-w-[371px]">
-           <span class="flex py-[10px] font-Golos font-semibold text-[27px] text-white ">
+              class="flex items-center bg-primary/60 rounded-[70px] py-[25px] gap-[14px] flex-col w-full max-w-full md:max-w-[371px]">
+           <span class="flex py-[10px] font-Golos font-semibold text-xl md:text-[27px] text-white ">
              Наши преимущества
            </span>
             <div class="flex gap-[25px] flex-col w-full bg-panel-blue/70 py-[43px] px-[42px]">

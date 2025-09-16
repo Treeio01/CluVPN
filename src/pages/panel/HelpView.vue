@@ -97,15 +97,15 @@ const questions2 = ref([
   <LayoutPanel>
     <template #content>
       <div
-          class="flex w-full items-center max-w-[1063px] rounded-[70px] bg-panel-blue flex-col pt-[60px] pb-[66px] px-[52px]">
-        <span class="text-white p-2.5 font-Golos font-medium text-[29px] leading-normal tracking-[-0.02em]">
+          class="flex w-full items-center max-w-[1063px] rounded-[70px] bg-panel-blue flex-col pt-[20px] md:pt-[60px] md:pb-[66px] pb-[20px] px-[20px] md:px-[52px]">
+        <span class="text-white p-2.5 font-Golos font-medium md:text-[29px] text-xl leading-normal tracking-[-0.02em]">
           Все ответы вы можете найти тут
         </span>
-        <div class="flex gap-4 mt-11 mb-[61px]">
-          <div class="flex gap-[25px]">
+        <div class="flex gap-4 mt-11 mb-[20px] md:mb-[61px]">
+          <div class="flex gap-[25px] md:flex-row flex-col">
             <Questions :questions="questions"/>
             <div class="flex p-2.5 ">
-              <div class="flex min-h-[671px] bg-linear-to-b to-white/16 from-black/16 min-w-[1px] w-full"></div>
+              <div class="flex min-h-[1px] md:min-h-[671px] bg-linear-to-b to-white/16 from-black/16 min-w-[1px] w-full"></div>
             </div>
             <Questions :questions="questions2"/>
           </div>

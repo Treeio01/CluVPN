@@ -8,23 +8,23 @@ import Modal from "../../components/Panel/Modal.vue";
 
   <LayoutPanel>
     <template #content>
-      <div class="flex flex-col gap-[23px] w-full max-w-[1043px] bg-panel-blue py-[38px] px-[47px] rounded-[70px]">
-        <div class="flex w-full gap-[19px]">
-          <div class="flex flex-col h-max  bg-primary rounded-[60px] w-full max-w-[464px]">
-            <div class="flex px-[67px] pt-[48px] pb-[19px]">
-              <span class="text-white p-2.5 font-Days text-[34px]">
+      <div class="flex flex-col gap-[23px] w-full max-w-[1043px] bg-panel-blue py-[20px] md:py-[38px] px-[20px] md:px-[47px] md:rounded-[70px] rounded-[40px]">
+        <div class="flex w-full gap-[19px] 1240:flex-row flex-col">
+          <div class="flex flex-col h-max  bg-primary md:rounded-[60px] rounded-[40px] w-full max-w-full 1240:max-w-[464px]">
+            <div class="flex md:px-[67px] px-[20px] md:pt-[48px] pt-[20px] pb-[19px]"> 
+              <span class="text-white p-2.5 font-Days md:text-[34px] text-xl text-center w-full">
                 VPN на телефон
               </span>
             </div>
-            <div class="flex w-full py-[19px] px-[57px] bg-panel-blue/60">
-              <span class="p-2.5 text-white leading-[31px] font-Golos text-[31px]">
+            <div class="flex w-full py-[19px] md:px-[57px] px-[20px] bg-panel-blue/60">
+              <span class="p-2.5 text-white leading-[31px] font-Golos md:text-[31px] text-xl">
                 Интернет всегда
 с тобой — быстро
 и без блокировок
               </span>
             </div>
-            <div class="flex items-center flex-col gap-2 px-[21px] pt-[19px] pb-5 w-full">
-              <div class="flex items-center gap-2 w-full">
+            <div class="flex items-center  flex-col gap-2 px-[21px] pt-[19px] pb-5 w-full">
+              <div class="flex items-center justify-center gap-2 w-full md:flex-row flex-col">
                 <div
                     class="flex py-3 px-2 w-full max-w-[135px] justify-center rounded-[40px] bg-panel-blue/60 gap-2 items-center">
                   <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@ import Modal from "../../components/Panel/Modal.vue";
                           d="M20.2996 3C20.4996 4.375 19.9371 5.73752 19.1996 6.68752C18.4121 7.71252 17.0371 8.51249 15.7121 8.46249C15.4746 7.13749 16.0871 5.77499 16.8371 4.86249C17.6746 3.86249 19.0871 3.0875 20.2996 3Z"
                           fill="white"/>
                   </svg>
-                  <span class="text-white font-Golos text-[20px]">
+                  <span class="text-white font-Golos md:text-[20px] text-xl">
                     IOS
                   </span>
                 </div>
@@ -62,7 +62,7 @@ import Modal from "../../components/Panel/Modal.vue";
                         fill="white"/>
                   </svg>
 
-                  <span class="text-white font-Golos text-[20px]">
+                  <span class="text-white font-Golos md:text-[20px] text-xl">
                     Android
                   </span>
                 </div>
@@ -81,25 +81,25 @@ import Modal from "../../components/Panel/Modal.vue";
                   </svg>
 
 
-                  <span class="text-white font-Golos text-[20px]">
+                  <span class="text-white font-Golos md:text-[20px] text-xl">
                     Huawei
                   </span>
                 </div>
               </div>
-              <span class="text-[#DFDFDF] font-Golos text-[23px] p-2.5">
+              <span class="text-[#DFDFDF] font-Golos md:text-[23px] text-xl p-2.5">
                 выберите свое устройство
               </span>
             </div>
           </div>
 
-          <div class="flex flex-col h-max items-center  bg-primary rounded-[60px] w-full max-w-[464px]">
-            <div class="flex px-[20px] pt-[48px] pb-[19px]">
-              <span class="text-white p-2.5 font-Days text-[34px]">
+          <div class="flex flex-col h-max items-center  bg-primary md:rounded-[60px] rounded-[40px] w-full max-w-full 1240:max-w-[464px]">
+            <div class="flex px-[20px] md:pt-[48px] pt-[20px] pb-[19px]">
+              <span class="text-white p-2.5 font-Days md:text-[34px] text-xl text-center w-full">
                VPN на компьютер
               </span>
             </div>
-            <div class="flex w-full py-[4px] px-[57px] bg-panel-blue/60">
-              <span class="p-2.5 text-white font-Golos leading-[31px] text-[31px]">
+            <div class="flex w-full py-[4px] md:px-[57px] px-[20px] bg-panel-blue/60">
+              <span class="p-2.5 text-white font-Golos leading-[31px] md:text-[31px] text-xl">
               Видео и сайты
 в лучшем качестве.
 Никаких преград
@@ -107,7 +107,7 @@ import Modal from "../../components/Panel/Modal.vue";
               </span>
             </div>
             <div class="flex items-center flex-col gap-2 px-[21px] pt-[19px] pb-5 w-full">
-              <div class="flex items-center gap-2 w-full">
+              <div class="flex items-center justify-center gap-2 w-full md:flex-row flex-col">
                 <div
                     class="flex py-3 px-2 w-full max-w-[135px] justify-center rounded-[40px] bg-panel-blue/60 gap-2 items-center">
                   <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +118,7 @@ import Modal from "../../components/Panel/Modal.vue";
                           d="M20.2996 3C20.4996 4.375 19.9371 5.73752 19.1996 6.68752C18.4121 7.71252 17.0371 8.51249 15.7121 8.46249C15.4746 7.13749 16.0871 5.77499 16.8371 4.86249C17.6746 3.86249 19.0871 3.0875 20.2996 3Z"
                           fill="white"/>
                   </svg>
-                  <span class="text-white font-Golos text-[20px]">
+                  <span class="text-white font-Golos md:text-[20px] text-xl">
                     macOS
                   </span>
                 </div>
@@ -132,7 +132,7 @@ import Modal from "../../components/Panel/Modal.vue";
                   </svg>
 
 
-                  <span class="text-white font-Golos text-[20px]">
+                  <span class="text-white font-Golos md:text-[20px] text-xl">
                     Windows
                   </span>
                 </div>
@@ -140,30 +140,30 @@ import Modal from "../../components/Panel/Modal.vue";
                     class="flex py-3 w-full max-w-[135px] px-2 rounded-[40px] justify-center bg-panel-blue/60 gap-2 items-center">
 
 
-                  <span class="text-white font-Golos text-[20px]">
+                  <span class="text-white font-Golos md:text-[20px] text-xl">
                     Linux
                   </span>
                 </div>
               </div>
-              <span class="text-[#DFDFDF] font-Golos text-[23px] p-2.5">
+              <span class="text-[#DFDFDF] font-Golos md:text-[23px] text-xl p-2.5">
                 выберите свое устройство
               </span>
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-max  bg-primary rounded-[60px] w-full items-center">
-          <div class="flex px-[67px] pt-[48px] pb-[19px]">
-              <span class="text-white p-2.5 font-Days text-[34px]">
+        <div class="flex flex-col h-max  bg-primary md:rounded-[60px] rounded-[40px] w-full items-center">
+          <div class="flex md:px-[67px] px-[20px] md:pt-[48px] pt-[20px] pb-[19px]">
+              <span class="text-white p-2.5 font-Days md:text-[34px] text-xl text-center w-full">
                 VPN на телевизор
               </span>
           </div>
-          <div class="flex w-full justify-center py-[19px] px-[57px] bg-panel-blue/60">
-              <span class="p-2.5 text-white leading-[31px] font-Golos text-[31px]">
+          <div class="flex w-full justify-center py-[19px] md:px-[57px] px-[20px] bg-panel-blue/60">
+              <span class="p-2.5 text-white leading-[31px] font-Golos md:text-[31px] text-xl">
              Кино и ютуб в 4K — без запретов и пауз
               </span>
           </div>
           <div class="flex items-center flex-col gap-2 px-[21px] pt-[19px] pb-5 w-full">
-            <div class="flex items-center gap-5 w-full justify-center">
+            <div class="flex items-center justify-center gap-5 w-full md:flex-row flex-col">
               <div
                   class="flex py-3 px-2 w-full max-w-[270px] justify-center rounded-[40px] bg-panel-blue/60 gap-2 items-center">
                 <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -174,7 +174,7 @@ import Modal from "../../components/Panel/Modal.vue";
                         d="M20.2996 3C20.4996 4.375 19.9371 5.73752 19.1996 6.68752C18.4121 7.71252 17.0371 8.51249 15.7121 8.46249C15.4746 7.13749 16.0871 5.77499 16.8371 4.86249C17.6746 3.86249 19.0871 3.0875 20.2996 3Z"
                         fill="white"/>
                 </svg>
-                <span class="text-white font-Golos text-[20px]">
+                <span class="text-white font-Golos md:text-[20px] text-xl">
                    Apple TV
                   </span>
               </div>
@@ -210,7 +210,7 @@ import Modal from "../../components/Panel/Modal.vue";
                   </span>
               </div>
             </div>
-            <span class="text-[#DFDFDF] font-Golos text-[23px] p-2.5">
+            <span class="text-[#DFDFDF] font-Golos md:text-[23px] text-xl p-2.5 text-center">
                 выберите свое устройство
               </span>
           </div>

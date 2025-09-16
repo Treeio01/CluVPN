@@ -2,7 +2,7 @@
   <div
     class="flex flex-col border-5 rounded-[45px] mobile:rounded-[50px] bg-white border-primary pt-[39px] mobile:pt-[45px]  px-[31px] mobile:px-[34px] pb-[35px] w-full mobile:max-w-full 1025:max-w-[405px]"
   >
-    <div class="flex w-full justify-between items-start">
+    <div class="flex w-full justify-between items-start sm:flex-row flex-col">
       <div class="flex flex-col">
         <div class="flex items-center gap-[10px]">
             <span

@@ -9,13 +9,13 @@ defineProps({
 </script>
 
 <template>
-  <div :class="title != 'Частые вопросы' ? 'items-center' : ''" class="flex  flex-col py-[31px] px-[49px] w-full gap-6 bg-panel-blue/70 rounded-[60px]">
-            <span class="text-white p-2.5 font-Inter font-bold text-[30px]">
+  <div :class="title != 'Частые вопросы' ? 'items-center' : ''" class="flex  flex-col py-[20px] md:py-[31px] px-[20px] md:px-[49px] w-full gap-6 bg-panel-blue/70 rounded-[60px]">
+            <span class="text-white p-2.5 font-Inter font-bold md:text-[30px] text-xl text-center">
               {{ title }}
             </span>
 
     <Questions :questions="questions"/>
-    <div class="flex gap-2 items-center  w-full">
+    <div class="flex gap-2 items-center md:flex-row flex-col w-full">
               <span class="text-[#B2B2B2] p-2.5 font-Golos text-[18px] leading-normal tracking-[-0.02em]">
                 Остались вопросы? Найди свой ответ тут →
               </span>

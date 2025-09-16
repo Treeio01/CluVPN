@@ -4,14 +4,14 @@
     <template #content>
       <div class="flex  items-center">
 
-        <div class="flex items-center flex-col gap-12 bg-panel-blue rounded-[80px] max-w-[780px] py-[95px] px-[131px]">
-        <span class="text-white font-Days text-[48px]">
+        <div class="flex items-center flex-col gap-12 bg-panel-blue rounded-[40px] sm:rounded-[80px] max-w-[780px] py-[40px] px-[40px] sm:py-[95px] sm:px-[131px]">
+        <span class="text-white font-Days text-3xl sm:text-[48px]">
           Регистрация
         </span>
           <div class="flex flex-col gap-3 w-full max-w-[507px]">
             <div class="flex flex-col gap-2 w-full">
               <div class="flex flex-col gap-2 w-full group">
-                <label id="login" name="login" class="text-white/50 transition-colors ease-in-out duration-300  group-focus-within:text-white font-Golos text-3xl">
+                <label id="login" name="login" class="text-white/50 transition-colors ease-in-out duration-300  group-focus-within:text-white font-Golos text-2xl sm:text-3xl">
                   Логин
                 </label>
                 <div
@@ -23,11 +23,11 @@
                   </svg>
                   <div class="flex w-[1px] min-h-[36px] bg-white/50 group-focus-within:bg-white transition-colors ease-in-out duration-300"></div>
                   <input id="login" name="login" type="text" placeholder="example@gmail.com"
-                         class="text-white outline-none  w-full placeholder:text-white/50 font-Golos text-3xl">
+                         class="text-white outline-none  w-full placeholder:text-white/50 font-Golos text-xl mobile:text-3xl">
                 </div>
               </div>
               <div class="flex flex-col gap-2 w-full group">
-                <label for="password" class="text-white/50 transition-colors ease-in-out duration-300  group-focus-within:text-white font-Golos text-3xl">
+                <label for="password" class="text-white/50 transition-colors ease-in-out duration-300  group-focus-within:text-white font-Golos text-2xl sm:text-3xl">
                   Пароль
                 </label>
                 <div
@@ -40,7 +40,7 @@
 
                   <div class="flex w-[1px] min-h-[36px] bg-white/50 group-focus-within:bg-white transition-colors ease-in-out duration-300"></div>
                   <input id="password" name="password" type="text" placeholder="*********"
-                         class="text-white outline-none  w-full placeholder:text-white/50 font-Golos text-3xl">
+                         class="text-white outline-none  w-full placeholder:text-white/50 font-Golos text-xl sm:text-3xl">
                 </div>
               </div>
             </div>
@@ -52,11 +52,11 @@
                 Продолжая, вы соглашаетесь с <span class="text-primary"> политикой конфиденциальности</span>
               </span>
             </div>
-            <button class="flex items-center justify-center py-[15px] hover:opacity-75 transition-opacity ease-in-out duration-300 cursor-pointer bg-primary w-full rounded-[15px]">
-              <span class="text-white font-Golos font-light text-[31px]">
+            <RouterLink to="/panel" class="flex items-center justify-center py-[8px] sm:py-[15px] hover:opacity-75 transition-opacity ease-in-out duration-300 cursor-pointer bg-primary w-full rounded-[15px]">
+              <span class="text-white font-Golos font-light text-base sm:text-[31px]">
                 Начать
               </span>
-            </button>
+            </RouterLink>
           </div>
         </div>
 

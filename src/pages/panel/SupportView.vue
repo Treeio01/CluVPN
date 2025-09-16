@@ -34,10 +34,10 @@ watch(messages, () => nextTick(scrollToBottom), {deep: true});
   <LayoutPanel>
     <template #content>
       <div
-          class="flex items-center w-full max-w-[1043px] bg-panel-blue rounded-[70px] gap-[25px] flex-col pt-[31px] px-[36px] pb-[44px]">
+          class="flex items-center w-full max-w-[1043px] bg-panel-blue mobile:rounded-[70px] rounded-[40px] gap-[25px] flex-col mobile:pt-[31px] pt-[20px] mobile:px-[36px] px-[20px] mobile:pb-[44px] pb-[20px]">
         <span class="text-white font-Golos font-medium text-[30px]">Чат с поддержкой</span>
 
-        <div class="flex flex-col gap-[42px] bg-primary/20 pt-[47px] px-[38px] pb-[52px] h-full rounded-[70px] w-full">
+        <div class="flex flex-col mobile:justify-center justify-between gap-[42px] bg-primary/20 mobile:pt-[47px] pt-[20px] mobile:px-[38px] px-[20px] mobile:pb-[52px] pb-[20px] h-full mobile:rounded-[70px] rounded-[40px] w-full">
           <!-- Лист сообщений -->
           <div ref="listRef" class="flex flex-col gap-[14px] h-full max-h-[656px] overflow-y-auto">
             <div

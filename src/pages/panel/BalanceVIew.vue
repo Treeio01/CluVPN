@@ -44,7 +44,7 @@ const deposit = (amount) => {
 <template>
   <LayoutPanel>
     <template #content>
-      <div class="flex flex-col items-center gap-[71px] w-full max-w-[1043px] ">
+      <div class="flex flex-col items-center mobile:gap-[71px] gap-[20px] w-full max-w-[1043px] ">
         <div
           class="flex 1025:gap-0 gap-[22px] mobile:gap-[77px] 1025:flex-row flex-col bg-panel-blue rounded-[70px] w-full  px-[19px] mobile:px-[48px] py-[18px] mobile:py-[37px]  justify-between">
           <div
@@ -52,7 +52,7 @@ const deposit = (amount) => {
             <span class="text-white font-Days text-[32px] mobile:text-[39px] leading-normal">
               Ваш баланс
             </span>
-            <div class="flex w-full py-10 px-[56px] bg-panel-blue/53  rounded-[40px]">
+            <div class="flex w-full items-center justify-center py-10 px-[56px] bg-panel-blue/53  rounded-[40px]">
               <span class="text-white font-Days text-[24px] mobile:text-[43px] leading-normal">
                 XXXX,XX руб
               </span>
@@ -65,7 +65,7 @@ const deposit = (amount) => {
             </button>
           </div>
           <div
-            class="flex mobile:flex-row mobile:gap-[5px] gap-[22px] flex-col 1025:flex-col  justify-between w-full 1025:max-w-[310px]">
+            class="flex md:flex-row mobile:gap-[5px] sm:gap-[10px] gap-[22px] flex-col 1025:!flex-col  justify-between w-full 1025:max-w-[310px]">
             <div class="mobile:flex hidden bg-primary rounded-[55px] py-[35px] px-[27px]">
               <RouterLink to="/sub"
                 class="flex justify-between hover:opacity-75 transition-opacity duration-300 ease-in-out items-center py-[24px] px-[34px] w-full bg-panel-blue/53 rounded-[25px]">
@@ -116,8 +116,8 @@ const deposit = (amount) => {
             </RouterLink>
           </div>
         </div>
-        <div class="flex mobile:flex-row flex-col justify-between items-center w-full">
-          <QuestionBlock :questions="questions" title="Вопросы об оплате" class="max-w-[609px]" />
+        <div class="flex md:flex-row flex-col gap-4.5 justify-between items-center w-full">
+          <QuestionBlock :questions="questions" title="Вопросы об оплате" class="max-w-full md:max-w-[609px]" />
           <HelpBlock />
         </div>
       </div>

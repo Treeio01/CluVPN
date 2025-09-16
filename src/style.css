@@ -8,8 +8,10 @@
     --color-panel-blue: #060B28;
 
     --breakpoint-mobile: 431px;
+    --breakpoint-1400:1400px;
     --breakpoint-1240: 1241px;
     --breakpoint-1025: 1025px;
+    
     --font-Golos: "Golos Text", sans-serif;
     --font-Space: "Space Grotesk", sans-serif;
     --font-Tektur: "Tektur", sans-serif;

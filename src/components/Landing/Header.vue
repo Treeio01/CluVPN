@@ -1,31 +1,60 @@
 <template>
   <div
     class="flex relative w-full px-[30px] mobile:px-[53px] 1025:px-[83px] items-center justify-between py-3 pt-[51px] mobile:pt-[40px] 1025:pt-[22px]">
-    <img src="../../assets/img/logo.svg" class="max-w-[124px] mobile:max-w-165px" alt="" />
+    <img
+      src="../../assets/img/logo.svg"
+      class="max-w-[124px] mobile:max-w-165px"
+      alt=""
+      data-aos="fade-down"
+      data-aos-duration="700"
+    />
     <ul
-      class="w-full 1025:flex hidden max-w-[541px] rounded-[15px] border border-white/40 hover:border-primary duration-300 ease-in-out transition-colors py-1 items-center justify-center gap-2.5">
-      <a href="#conditions"
-        class="py-2 px-4 font-Inter font-bold text-sm text-white tracking-0 leading-[20px] hover:text-primary transition-color ease-in-out duration-300">
+      class="w-full 1025:flex hidden max-w-[541px] rounded-[15px] border border-white/40 hover:border-primary duration-300 ease-in-out transition-colors py-1 items-center justify-center gap-2.5"
+      data-aos="fade-down"
+      data-aos-delay="150"
+      data-aos-duration="700"
+    >
+      <a
+        href="#conditions"
+        class="py-2 px-4 font-Inter font-bold text-sm text-white tracking-0 leading-[20px] hover:text-primary transition-color ease-in-out duration-300"
+       
+      >
         Преимущества
       </a>
-      <a href="#prices"
-        class="py-2 px-4 font-Inter font-bold text-sm text-white tracking-0 leading-[20px] hover:text-primary transition-color ease-in-out duration-300">
+      <a
+        href="#prices"
+        class="py-2 px-4 font-Inter font-bold text-sm text-white tracking-0 leading-[20px] hover:text-primary transition-color ease-in-out duration-300"
+        
+      >
         Тарифы
       </a>
-      <a href="#faq"
-        class="py-2 px-4 font-Inter font-bold text-sm text-white tracking-0 leading-[20px] hover:text-primary transition-color ease-in-out duration-300">
+      <a
+        href="#faq"
+        class="py-2 px-4 font-Inter font-bold text-sm text-white tracking-0 leading-[20px] hover:text-primary transition-color ease-in-out duration-300"
+        
+      >
         Вопросы
       </a>
     </ul>
-    <div class="gap-4 items-center 1025:flex hidden">
+    <div
+      class="gap-4 items-center 1025:flex hidden"
+      data-aos="fade-down"
+      data-aos-delay="250"
+      data-aos-duration="700"
+    >
       <button
-        class="bg-transparent py-2 px-4 rounded-[6px] cursor-pointer hover:bg-white/10 transition-colors ease-in-out duration-300">
+        class="bg-transparent py-2 px-4 rounded-[6px] cursor-pointer hover:bg-white/10 transition-colors ease-in-out duration-300"
+       
+      >
         <span class="text-white font-Inter font-medium text-sm tracking-0 leading-[20px]">
           Поддержка
         </span>
       </button>
-      <RouterLink to="/login"
-        class="bg-primary py-2 px-4 rounded-[11px] cursor-pointer hover:bg-transparent border-primary border-2 transition-colors ease-in-out duration-300">
+      <RouterLink
+        to="/login"
+        class="bg-primary py-2 px-4 rounded-[11px] cursor-pointer hover:bg-transparent border-primary border-2 transition-colors ease-in-out duration-300"
+        
+      >
         <span class="text-white font-Inter font-medium text-sm tracking-0 leading-[20px]">
           Войти
         </span>
@@ -45,7 +74,7 @@
       leave-to-class="opacity-0 -translate-y-2 scale-95">
       <!-- Используем v-if, чтобы пункты заново монтировались и каждый раз проигрывали анимацию -->
       <div v-if="isOpen" id="mobile-menu"
-        class="flex z-50 w-full max-w-[370px] mobile:max-w-[924px] bg-[#D9D9D9] rounded-[40px] top-[40px] fixed flex-col gap-[35px] mobile:px-[90px] px-[36px] py-[35px] pb-[42px] mobile:pb-[51px] origin-top"
+        class="flex z-50 w-full max-w-[calc(100%-50px)] mobile:max-w-[calc(100%-50px)] bg-[#D9D9D9] rounded-[40px] right-[25px] top-[40px] fixed flex-col gap-[35px] mobile:px-[90px] px-[36px] py-[35px] pb-[42px] mobile:pb-[51px] origin-top"
         @keydown.esc="closeMenu" @click="onMenuClick">
         <button class="cursor-pointer absolute right-[30px] top-[20px]" @click="closeMenu" aria-label="Закрыть меню">
           <span class="text-primary text-[38px]"> ✕ </span>
