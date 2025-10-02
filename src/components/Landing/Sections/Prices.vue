@@ -41,6 +41,7 @@
         :modules="modules"
         :slides-per-view="1"
         :space-between="50"
+        
         :pagination="{ clickable: true }"
       >
         <swiper-slide v-for="(tariff, idx) in tariffs" :key="tariff.name">
@@ -75,6 +76,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination } from "swiper/modules"
 import "swiper/css";
 
+    const modules = [Pagination];
 import 'swiper/css/pagination';
 
 const tariffs = ref([
