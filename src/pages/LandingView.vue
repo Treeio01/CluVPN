@@ -1,12 +1,12 @@
 <template>
   <div class="flex w-full justify-center bg-bg">
-    <div class="flex flex-col items-center w-full max-w-[1440px]">
+    <div class="flex flex-col items-center w-full max-w-[1440px] overflow-hidden">
 
       <Header></Header>
       <Main></Main>
       <Conditions></Conditions>
       <div class="flex flex-col items-center w-full pt-[61px] bg-white z-30">
-        <div class="flex flex-col items-center w-full  rounded-t-[50px] mobile:rounded-t-[100px] pb-[54px] bg-bg">
+        <div class="flex flex-col items-center w-full  rounded-t-[60px] md:rounded-t-[100px] pb-[54px] bg-bg">
           <Prices></Prices>
           <Advantages></Advantages>
           <FAQ></FAQ>

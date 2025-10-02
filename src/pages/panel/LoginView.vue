@@ -23,7 +23,7 @@
                   </svg>
                   <div class="flex w-[1px] min-h-[36px] bg-white/50 group-focus-within:bg-white transition-colors ease-in-out duration-300"></div>
                   <input id="login" name="login" type="text" placeholder="example@gmail.com"
-                         class="text-white outline-none  w-full placeholder:text-white/50 font-Golos text-xl mobile:text-3xl">
+                         class="text-white outline-none  w-full placeholder:text-white/50 font-Golos text-lg md:text-3xl">
                 </div>
               </div>
               <div class="flex flex-col gap-2 w-full group">
@@ -40,7 +40,7 @@
 
                   <div class="flex w-[1px] min-h-[36px] bg-white/50 group-focus-within:bg-white transition-colors ease-in-out duration-300"></div>
                   <input id="password" name="password" type="text" placeholder="*********"
-                         class="text-white outline-none  w-full placeholder:text-white/50 font-Golos text-xl sm:text-3xl">
+                         class="text-white outline-none  w-full placeholder:text-white/50 font-Golos text-lg md:text-3xl">
                 </div>
               </div>
             </div>

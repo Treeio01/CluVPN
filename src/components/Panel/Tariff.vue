@@ -26,21 +26,21 @@ const isOpen = ref(false)
             stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
 
-    <div class="flex gap-[2px] flex-col text-left">
-      <span class="text-white font-medium  leading-normal font-Golos text-[17px]">
+    <div class="flex 1441:gap-[2px] gap-[0px] flex-col text-left">
+      <span class="text-white font-medium  leading-[120%] font-Golos text-[17px]">
         {{ tariff.time }}
       </span>
-      <span class="font-Golos leading-normal text-[13px] font-semibold"
+      <span class="font-Golos leading-[120%] text-[13px] font-semibold"
             :class="tariff.sale ? 'text-white' : 'text-[#B8B8B8]'">
         {{ tariff.sale ? `скидка ${tariff.sale}%` : 'без скидки' }}
       </span>
     </div>
 
-    <div class="flex gap-[2px] flex-col items-end">
-      <span class="text-white leading-normal font-Inter font-semibold text-lg">
+    <div class="flex 1441:gap-[2px] gap-[0px] flex-col items-end">
+      <span class="text-white leading-[120%] font-Inter font-semibold text-lg">
         {{ tariff.price }}₽
       </span>
-      <span class="text-[#B8B8B8] leading-normal font-Inter text-[13px]">
+      <span class="text-[#B8B8B8] leading-[120%] font-Inter text-[13px]">
         {{ tariff.timeAtPrice }}
       </span>
     </div>

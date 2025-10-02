@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex flex-col border-5 rounded-[45px] mobile:rounded-[50px] bg-white border-primary pt-[39px] mobile:pt-[45px]  px-[31px] mobile:px-[34px] pb-[35px] w-full mobile:max-w-full 1025:max-w-[405px]"
+    class="flex flex-col border-5 h-full justify-between gap-3 mobile:rounded-[50px] bg-white border-primary pt-[39px] mobile:pt-[45px]  px-[31px] mobile:px-[34px] pb-[35px] w-full mobile:max-w-full 1025:max-w-[405px]"
   >
     <div class="flex w-full justify-between items-start sm:flex-row flex-col">
       <div class="flex flex-col">
-        <div class="flex items-center gap-[10px]">
+        <div class="flex items-center flex-wrap gap-[10px]">
             <span
           class="text-[#202020] font-Golos font-semibold text-[34px] mobile:text-[30px] 1025:text-[36px] leading-[40px] tracking-0"
         >
@@ -22,7 +22,7 @@
           </div>
         </div>
      
-        <div class="flex items-center gap-[12px] mt-[15px]">
+        <div class="flex items-center flex-wrap gap-[12px] mt-[15px]">
           <span
             class="text-[#202020] font-Golos font-semibold text-[25px] mobile:text-[27px] leading-[30px] tracking-0"
           >
@@ -61,7 +61,7 @@
             type.saleAmount ? 'mt-[22px]' : 'mt-[62px] mobile:mt-[22px] 1025:mt-[62px]'
           "
         >
-          <li class="gap-[11px] mobile:gap-[13px] items-center flex">
+          <li class="gap-[11px] w-full mobile:gap-[13px] items-center flex">
             <svg
               width="30"
               height="30"
@@ -76,12 +76,12 @@
             </svg>
 
             <span
-              class="text-[#202020] font-Golos font-semibold  text-[17px] mobile:text-lg leading-[18px]"
+              class="text-[#202020] w-full font-Golos font-semibold  text-[17px] mobile:text-lg leading-[18px]"
             >
               YouTube без рекламы
             </span>
           </li>
-          <li class="gap-[11px] mobile:gap-[13px] items-center flex">
+          <li class="gap-[11px] w-full mobile:gap-[13px] items-center flex">
             <svg
               width="30"
               height="30"
@@ -108,12 +108,12 @@
             </svg>
 
             <span
-              class="text-[#202020] font-Golos font-semibold  text-[17px] mobile:text-lg leading-[18px]"
+              class="text-[#202020] w-full font-Golos font-semibold  text-[17px] mobile:text-lg leading-[18px]"
             >
               Защита от трекеров
             </span>
           </li>
-          <li class="gap-[11px] mobile:gap-[13px] items-center flex">
+          <li class="gap-[11px] w-full mobile:gap-[13px] items-center flex">
             <svg
               width="30"
               height="30"
@@ -132,12 +132,12 @@
             </svg>
 
             <span
-              class="text-[#202020] font-Golos font-semibold  text-[17px] mobile:text-lg leading-[18px]"
+              class="text-[#202020] w-full font-Golos font-semibold  text-[17px] mobile:text-lg leading-[18px]"
             >
               VPN для всех устройств
             </span>
           </li>
-          <li class="gap-[11px] mobile:gap-[13px] items-center flex">
+          <li class="gap-[11px] w-full mobile:gap-[13px] items-center flex">
             <svg
               width="30"
               height="30"
@@ -152,7 +152,7 @@
             </svg>
 
             <span
-              class="text-[#202020] font-Golos font-semibold  text-[17px] mobile:text-lg leading-[18px]"
+              class="text-[#202020] w-full font-Golos font-semibold  text-[17px] mobile:text-lg leading-[18px]"
             >
               Доступ в любой точке мира
             </span>
@@ -187,7 +187,7 @@
         </span>
       </div>
     </div>
-    <RouterLink to="/login" class="mt-[28px] w-full p-[23px] flex justify-center hover:opacity-75 transition-opacity ease-in-out duration-300 bg-primary rounded-[26px]">
+    <RouterLink to="/login" class=" w-full p-[23px] flex justify-center hover:opacity-75 transition-opacity ease-in-out duration-300 bg-primary rounded-[26px]">
       <span
         class="text-white font-Inter font-bold text-2xl leading-[20px] tracking-0"
       >

@@ -358,7 +358,8 @@
           Задайте свой вопрос в чате
         </span>
       </div>
-      <RouterLink to="/support"
+      <RouterLink
+        to="/support"
         class="py-2.5 flex cursor-pointer items-center justify-center mt-[13px] hover:opacity-75 transition-opacity ease-in-out duration-300 bg-linear-to-b from-[#060B28]/74 to-[#0A0E23]/71 rounded-xl"
       >
         <span class="text-white font-Days text-[10px]"> Поддержка </span>
@@ -367,7 +368,7 @@
   </div>
 
   <div
-    class="flex 1025:hidden mobile-list fixed max-w-[calc(100%-50px)] mobile:max-w-[calc(100%-50px)] items-center bottom-[38px] left-1/2 -translate-x-1/2 py-2 mobile:py-[15px] px-6 justify-between bg-panel-blue rounded-[44px] w-full"
+    class="flex 1025:hidden z-50 mobile-list fixed max-w-[calc(100%-50px)] mobile:max-w-[calc(100%-50px)] items-center bottom-[38px] left-1/2 -translate-x-1/2 py-2 mobile:py-[15px] px-6 justify-between bg-panel-blue rounded-[44px] w-full"
   >
     <RouterLink
       to="/panel"
@@ -517,9 +518,13 @@
         Профиль
       </span>
     </RouterLink>
-    <div 
-      class="flex right-0 top-[-180px] mobile:top-[-245px] flex-col gap-[15px] absolute w-full md:max-w-[322px] max-w-[200px] transition-all duration-300 ease-in-out"
-      :class="isSubMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2 pointer-events-none'"
+    <div
+      class="flex right-0 top-[-180px] top-[-100px] md:top-[-245px] flex-col gap-[15px] absolute w-full md:max-w-[322px] max-w-[200px] transition-all duration-300 ease-in-out"
+      :class="
+        isSubMenuOpen
+          ? 'opacity-100 translate-y-0'
+          : 'opacity-0 translate-y-2 pointer-events-none'
+      "
     >
       <RouterLink
         to="/support"
@@ -562,7 +567,9 @@
             </linearGradient>
           </defs>
         </svg>
-        <span class="text-white font-golos font-semibold"> Поддержка </span>
+        <span class="text-white text-lg font-golos font-semibold">
+          Поддержка
+        </span>
       </RouterLink>
       <RouterLink
         to="/help"
@@ -605,72 +612,76 @@
             </linearGradient>
           </defs>
         </svg>
-        <span class="text-white font-golos font-semibold"> Помощь </span>
+        <span class="text-white text-lg font-golos font-semibold">
+          Помощь
+        </span>
       </RouterLink>
       <RouterLink
         to="/download"
         class="flex gap-[20px] items-center justify-center md:py-[22px] py-[10px] rounded-[30px] bg-panel-blue"
       >
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 8V16M12 16L15 13M12 16L9 13M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#DEDEDE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 8V16M12 16L15 13M12 16L9 13M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
+            stroke="#DEDEDE"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
 
-        <span class="text-white font-golos font-semibold"> Установить </span>
+        <span class="text-white text-lg font-golos font-semibold">
+          Установить
+        </span>
       </RouterLink>
     </div>
     <button
       @click="openSubMenu"
+      :class="isSubMenuOpen ? 'sub-menu-open' : ''"
       class="flex flex-col gap-1.5 mobile:py-3.5 mobile:px-[19px] items-center"
     >
       <svg
+        class="transition-all duration-300 ease-in-out"
         width="30"
-        height="31"
-        viewBox="0 0 30 31"
+        height="30"
+        viewBox="0 0 30 30"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <rect
-          x="4"
-          y="24.5"
-          width="17.5"
-          height="2"
-          rx="1"
-          transform="rotate(-90 4 24.5)"
-          fill="#9DB2CE"
-        />
-        <rect
-          x="13.334"
-          y="24.5"
-          width="17.5"
-          height="2"
-          rx="1"
-          transform="rotate(-90 13.334 24.5)"
-          fill="#9DB2CE"
-        />
-        <rect
-          x="22.666"
-          y="24.5"
-          width="17.5"
-          height="2"
-          rx="1"
-          transform="rotate(-90 22.666 24.5)"
-          fill="#9DB2CE"
-        />
+        <rect x="6" y="4" width="17.5" height="2" rx="1" fill="white" />
+        <rect x="6" y="13.3335" width="17.5" height="2" rx="1" fill="white" />
+        <rect x="6" y="22.6665" width="17.5" height="2" rx="1" fill="white" />
       </svg>
 
-      <span class="text-sm hidden font-Golos text-[#386BF6] leading-[100%]">
+      <span
+        class="text-sm hidden font-Golos text-[#386BF6] leading-[100%]"
+      >
         Прочее
       </span>
     </button>
   </div>
 </template>
-<style></style>
+<style>
+.sub-menu-open svg {
+  transform: rotate(90deg);
+}
+.sub-menu-open svg rect {
+  transition: fill 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #0057ff;
+}
+</style>
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const isSubMenuOpen = ref(false)
+const isSubMenuOpen = ref(false);
 
 const openSubMenu = () => {
-  isSubMenuOpen.value = !isSubMenuOpen.value
-}
+  isSubMenuOpen.value = !isSubMenuOpen.value;
+};
 </script>

@@ -81,9 +81,9 @@
         </button>
 
         <!-- Кнопка Войти (без ширинной анимации, просто fade/scale у контейнера) -->
-        <div class="flex py-2 w-max px-[50px] rounded-[10px] bg-[#006BD0]">
+        <RouterLink to="/login" class="flex py-2 w-max px-[50px] rounded-[10px] bg-[#006BD0]">
           <span class="text-white font-Golos text-[17px]"> Войти </span>
-        </div>
+        </RouterLink>
 
         <!-- Пункты с анимацией «от 0 до нужной ширины» -->
         <div class="flex flex-col gap-6">

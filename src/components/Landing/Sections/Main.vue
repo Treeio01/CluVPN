@@ -6,7 +6,7 @@
   >
     <img
       src="../../../assets/img/mobile.png"
-      class="max-w-[462px] hidden 1240:flex absolute right-[76px] top-[50px]"
+      class="max-w-[462px] hidden 1354:flex absolute right-[76px] top-[50px]"
       alt=""
       data-aos="fade-left"
       data-aos-delay="200"
@@ -28,7 +28,7 @@
         Ваш интернет на ваших правилах
       </h1>
       <span
-        class="text-[#B7B7B7] font-Golos text-sm mobile:text-xl font-medium leading-[16px] mobile:leading-[28px] tracking-0 max-w-[560px]"
+        class="text-[#B7B7B7] font-Golos text-sm mobile:text-xl font-medium leading-[16px] mobile:leading-[28px] tracking-0 lg:max-w-[560px]"
         data-aos="fade-down"
         data-aos-delay="300"
         data-aos-duration="900"
@@ -45,26 +45,26 @@
     >
       <RouterLink
         to="/login"
-        class="bg-primary hover:opacity-75 transition-opacity ease-in-out duration-300 mobile:order-1 order-2 mobile:w-max w-full rounded-[20px] py-[15px] mobile:py-6 px-9 flex items-center justify-center"
+        class="bg-primary hover:opacity-75 transition-opacity ease-in-out duration-300 mobile:order-1 order-2 mobile:w-max w-full rounded-[10px] md:rounded-[20px] py-[9px] md:py-6 px-6 md:px-9 flex items-center justify-center"
         data-aos="fade-up"
         data-aos-delay="500"
         data-aos-duration="900"
       >
         <span
-          class="text-white font-Days text-lg leading-[20px] tracking-[-12%]"
+          class="text-white text-center font-Days text-lg leading-[20px] tracking-[-12%]"
         >
           Купить от 200р / мес
         </span>
       </RouterLink>
       <RouterLink
         to="/login"
-        class="bg-white hover:opacity-75 transition-opacity ease-in-out duration-300 mobile:order-2 order-1 mobile:w-max w-full rounded-[20px] py-[15px] mobile:py-6 px-[21px] flex items-center justify-center"
+        class="bg-white hover:opacity-75 transition-opacity ease-in-out duration-300 mobile:order-2 order-1 mobile:w-max w-full rounded-[10px] md:rounded-[20px] py-[9px] md:py-6 px-6 md:px-[21px] flex items-center justify-center"
         data-aos="fade-up"
         data-aos-delay="600"
         data-aos-duration="900"
       >
         <span
-          class="text-primary font-Days text-lg leading-[20px] tracking-[-12%]"
+          class="text-primary text-center font-Days text-lg leading-[20px] tracking-[-12%]"
         >
           Попробовать бесплатно
         </span>
@@ -83,7 +83,7 @@
       </span>
     </div>
     <div
-      class="flex mt-[22px] mobile:mt-[65px] relative flex-col gap-[15px] mobile:gap-[11px] 1025:gap-[21px] bg-primary rounded-[20px] mobile:rounded-[40px] 1025:rounded-[60px] w-full max-w-[918px] 1025:max-w-[761px] py-[17px] mobile:py-[31px] pb-[13px] mobile:pb-[38px] px-[25px] mobile:px-[52px]"
+      class="flex mt-[22px] mobile:mt-[65px] relative flex-col gap-[15px] mobile:gap-[11px] 1025:gap-[21px] bg-primary rounded-[20px] mobile:rounded-[40px] 1025:rounded-[60px] w-full max-w-[918px] 1025:max-w-[761px] p-4 mobile:p-8 1025:p-10"
       data-aos="fade-up"
       data-aos-delay="800"
       data-aos-duration="900"
@@ -97,7 +97,7 @@
         data-aos-duration="900"
       />
       <span
-        class="text-white font-Golos font-bold text-[22px] mobile:text-[41px] 1025:text-[44px] leading-normal lg:leading-[25px] tracking-0"
+        class="text-white font-Golos font-bold text-[22px] mobile:text-[33px] md:text-[41px] 1025:text-[44px] leading-[100%] tracking-0"
         data-aos="fade-down"
         data-aos-delay="950"
         data-aos-duration="900"
@@ -105,12 +105,12 @@
         Умный VPN - что это такое?
       </span>
       <span
-        class="text-white font-Golos font-semibold text-[17px] 1025:text-[30px] mobile:text-[33px] leading-[17px] mobile:leading-[33px] tracking-[-0.03em] max-w-[267px] mobile:max-w-[420px]"
+        class="text-white font-Golos font-semibold text-[17px] 1025:text-[30px] mobile:text-[25px] leading-[100%] tracking-[-0.03em] max-w-[267px] mobile:max-w-[420px]"
         data-aos="fade-down"
         data-aos-delay="1000"
         data-aos-duration="900"
       >
-        об этом и многом другом рассказали дальше
+        Об этом и многом другом рассказали дальше
       </span>
       <button
         onclick="window.location.href='#conditions'"
@@ -120,7 +120,7 @@
         data-aos-duration="900"
       >
         <span
-          class="text-primary font-Inter font-bold text-[20px] mobile:text-[28px] leading-[20px] tracking-0"
+          class="text-primary font-Inter font-bold text-[15px] mobile:text-[28px] leading-[20px] tracking-0"
         >
           Смотреть
         </span>

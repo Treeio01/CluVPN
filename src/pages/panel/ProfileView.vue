@@ -26,7 +26,7 @@ const copyLink = (userId) => {
 <template>
   <LayoutPanel>
     <template #content>
-      <div class="flex flex-col items-center w-full gap-[20px] mobile:gap-[89px] 1240:gap-[99px] max-w-[1043px]">
+      <div class="flex flex-col items-center w-full gap-[20px] 1441:gap-[50px] max-w-[1043px]">
         <div
           class="flex w-full items-center gap-[35px] flex-col h-max  bg-panel-blue mobile:rounded-[70px] rounded-[40px] mobile:py-[35px] py-[20px] mobile:px-[67px] px-[20px] mobile:pb-[61px] pb-[20px]">
           <span class="text-white p-2.5 font-Golos font-medium mobile:text-[32px] text-xl leading-normal">
@@ -83,17 +83,20 @@ const copyLink = (userId) => {
               </div>
 
             </div>
-            <span class="text-white font-Golos mobile:text-[17px] text-xl py-2.5 pr-2.5 tracking-[-0.02em]">
+            <span class="text-white text-center md:text-left font-Golos mobile:text-[17px] text-xl py-2.5 pr-2.5 tracking-[-0.02em]">
               Появились вопросы? <RouterLink to="/support" class="underline"> Обратитесь в поддержку</RouterLink>
             </span>
           </div>
         </div>
         <div class="flex 1240:flex-row flex-col items-center mobile:gap-[51px] gap-[20px] w-full ">
           <div
-            class="flex  bg-primary  mobile:rounded-[60px] rounded-[40px] overflow-hidden mobile:pt-[38px] pt-[20px] w-full max-w-[546px] flex-col items-center gap-[31px]">
-            <span class="text-white text-center p-2.5 font-Days mobile:text-[32px] text-xl">
+            class="flex  bg-primary  mobile:rounded-[60px] rounded-[40px] overflow-hidden mobile:pt-[38px] pt-[20px] w-full max-w-full 1025:max-w-[546px] flex-col items-center gap-[31px]">
+           <div class="flex p-2.5">
+            <span class="text-white text-center font-Days mobile:text-[32px] text-xl">
               Реферальная программа
             </span>
+           </div>
+        
             <div class="flex items-center bg-panel-blue/80 mobile:rounded-[60px] rounded-[40px] mobile:py-3 py-[10px] mobile:px-[33px] px-[20px] w-full flex-col gap-[11px]">
               <span class="p-2.5 text-white text-center font-Golos mobile:text-[24px] text-xl leading-[111%] tracking-[-0.04em]">
                 Приглашай друзей и получай 20%

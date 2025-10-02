@@ -44,15 +44,15 @@ const deposit = (amount) => {
 <template>
   <LayoutPanel>
     <template #content>
-      <div class="flex flex-col items-center mobile:gap-[71px] gap-[20px] w-full max-w-[1043px] ">
+      <div class="flex flex-col items-center gap-[20px] w-full max-w-[1043px] ">
         <div
-          class="flex 1025:gap-0 gap-[22px] mobile:gap-[77px] 1025:flex-row flex-col bg-panel-blue rounded-[70px] w-full  px-[19px] mobile:px-[48px] py-[18px] mobile:py-[37px]  justify-between">
+          class="flex 1025:gap-0 gap-[22px] mobile:gap-[40px] md:gap-[77px] 1025:flex-row flex-col bg-panel-blue md:rounded-[70px] rounded-[40px]  w-full  px-[19px] mobile:px-[48px] py-[18px] mobile:py-[37px]  justify-between">
           <div
-            class="flex flex-col gap-[31px] items-center bg-primary px-[14px] mobile:px-[66px] py-[23px] mobile:py-[23px] rounded-[70px]">
+            class="flex flex-col gap-[31px] items-center bg-primary px-[14px] mobile:px-[50px] 1441:px-[66px] py-[23px] mobile:py-[23px] md:rounded-[70px] rounded-[40px]">
             <span class="text-white font-Days text-[32px] mobile:text-[39px] leading-normal">
               Ваш баланс
             </span>
-            <div class="flex w-full items-center justify-center py-10 px-[56px] bg-panel-blue/53  rounded-[40px]">
+            <div class="flex w-full items-center justify-center py-10 px-[56px] bg-panel-blue/53  md:rounded-[40px] rounded-[20px]">
               <span class="text-white font-Days text-[24px] mobile:text-[43px] leading-normal">
                 XXXX,XX руб
               </span>
@@ -65,8 +65,8 @@ const deposit = (amount) => {
             </button>
           </div>
           <div
-            class="flex md:flex-row mobile:gap-[5px] sm:gap-[10px] gap-[22px] flex-col 1025:!flex-col  justify-between w-full 1025:max-w-[310px]">
-            <div class="mobile:flex hidden bg-primary rounded-[55px] py-[35px] px-[27px]">
+            class="flex md:flex-row md:gap-[10px] mobile:gap-[10px] sm:gap-[10px] gap-[22px] flex-col 1025:!flex-col  justify-between w-full 1025:max-w-[310px]">
+            <div class="mobile:flex hidden bg-primary md:rounded-[55px] rounded-[40px] py-[35px] px-[27px]">
               <RouterLink to="/sub"
                 class="flex justify-between hover:opacity-75 transition-opacity duration-300 ease-in-out items-center py-[24px] px-[34px] w-full bg-panel-blue/53 rounded-[25px]">
                 <span class="text-white font-Golos font-medium text-[20px] mobile:text-[26px] leading-[26px] ">
@@ -90,7 +90,7 @@ const deposit = (amount) => {
               </span>
 
             </RouterLink>
-            <div class="mobile:flex hidden bg-primary rounded-[55px] py-[35px] px-[27px] w-full">
+            <div class="mobile:flex hidden bg-primary md:rounded-[55px] rounded-[40px] py-[35px] px-[27px] w-full">
               <RouterLink to="/sub"
                 class="flex justify-between hover:opacity-75 transition-opacity duration-300 ease-in-out cursor-pointer items-center py-[24px] px-[34px]  w-full bg-panel-blue/53 rounded-[25px]">
                 <span class="text-white font-Golos font-medium text-[20px] mobile:text-[26px] leading-[26px] ">

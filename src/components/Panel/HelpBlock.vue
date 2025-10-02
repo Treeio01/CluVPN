@@ -4,9 +4,9 @@
 
 <template>
   <div
-    class="flex items-center w-full h-full justify-between  1025:max-w-[398px] bg-primary/60 rounded-[60px] py-[22px] gap-[26px] flex-col">
+    class="flex items-center w-full justify-between  1025:max-w-[398px] bg-primary/60 md:rounded-[60px] rounded-[40px] py-[22px] gap-[26px] flex-col">
     <span
-      class="flex leading-[22px]  p-[10px] font-Golos max-w-[336px] font-semibold text-[23px] text-center text-white ">
+      class="flex leading-[22px]  p-[10px] font-Golos md:max-w-[336px] font-semibold text-[23px] text-center text-white ">
       НЕ смогли разобраться или произошла ошибка?
     </span>
     <div class="flex gap-[25px] flex-col w-full bg-panel-blue/82 py-[27px] px-[22px]">
@@ -17,7 +17,7 @@
         вам разобраться в любом вопросе
       </span>
     </div>
-    <div class="flex flex-col gap-[9px] w-full max-w-[337px]">
+    <div class="flex flex-col gap-[9px] max-w-[337px] w-[calc(100%-22px)]">
       <RouterLink to="/help"
         class="py-4 hover:opacity-75 transition-opacity ease-in-out duration-300 cursor-pointer flex justify-center w-full rounded-[25px] bg-panel-blue/74">
         <span class="text-white font-Golos text-[22px] font-semibold leading-[22px] tracking-[-0.02em]">

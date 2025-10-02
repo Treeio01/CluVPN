@@ -13,7 +13,7 @@ const close = () => emit('update:open', false);
 <template>
   <div class="flex cursor-pointer flex-col bg-primary/60 w-full rounded-[20px] py-[21px] px-[25px]" @click="toggle">
     <button type="button" class="flex w-full cursor-pointer items-center justify-between gap-2" >
-      <span class="text-white text-left font-Golos text-xl font-medium leading-[18px] tracking-[-0.02em]">
+      <span class="text-white text-left font-Golos text-xl font-medium leading-[100%] tracking-[-0.02em]">
         {{ question.title }}
       </span>
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
@@ -22,26 +22,14 @@ const close = () => emit('update:open', false);
       </svg>
     </button>
 
-    <Transition name="modal">
-      <Modal
-          v-if="question.open"
-          :title="question.title"
-          :content="question.answer"
-          link="/support"
-          link-text="Поддержка"
-          @close="close"
-      />
-    </Transition>
+    <Modal
+        v-if="question.open"
+        :title="question.title"
+        :content="question.answer"
+        link="/support"
+        link-text="Поддержка"
+        @close="close"
+    />
   </div>
 </template>
 
-<style scoped>
-.modal-enter-active, .modal-leave-active {
-  transition: opacity .2s ease, transform .2s ease;
-}
-
-.modal-enter-from, .modal-leave-to {
-  opacity: 0;
-  transform: scale(.98);
-}
-</style>

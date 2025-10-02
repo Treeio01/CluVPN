@@ -1,11 +1,11 @@
 <template>
   <div id="prices"
-    class="flex flex-col items-center w-full px-[30px] mobile:px-[50px] 1025:px-0 pt-[49px] mobile:pt-[64px] 1025:pt-[82px] max-w-[1024px] 1025:max-w-[1275px]"
+    class="flex flex-col items-center w-full px-[30px]  mobile:px-[50px] 1025:px-6 1354:px-0 pt-[49px] mobile:pt-[64px] 1025:pt-[82px] max-w-[1024px] 1025:max-w-[1275px]"
     data-aos="fade-up"
     data-aos-duration="700"
   >
     <span
-      class="text-white font-Golos leading-[30px] text-[20px] mobile:text-[35px] 1025:text-[40px] font-semibold"
+      class="text-white font-Golos text-center leading-[30px] text-[20px] mobile:text-[35px] 1025:text-[40px] font-semibold"
       data-aos="fade-down"
       data-aos-duration="700"
     >

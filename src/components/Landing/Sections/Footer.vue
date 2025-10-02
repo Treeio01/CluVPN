@@ -1,5 +1,5 @@
 <template>
-    <div class="flex  max-w-[370px] mobile:max-w-[916px] 1025:max-w-[1275px]  flex-col gap-[21px] mobile:gap-[96px] w-full mt-[57px]  pt-[48px]">
+    <div class="flex  max-w-[370px] mobile:max-w-[916px] 1025:max-w-[1275px]  flex-col gap-[21px] mobile:gap-[96px] w-full mt-[57px]  pt-[48px]  mobile:px-6 1354:px-0">
         <div class="flex items-start gap-4 mobile:gap-[98px] w-full max-w-[1275px]">
             <img src="../../../assets/img/logo.svg" alt="">
             <div class="flex flex-col gap-4 w-full">
