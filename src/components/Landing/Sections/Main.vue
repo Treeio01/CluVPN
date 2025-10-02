@@ -92,9 +92,7 @@
         src="../../../assets/img/human.png"
         class="absolute md:flex hidden max-w-[191px] bottom-[-16px] right-[91px] 1025:right-[60px]"
         alt=""
-        data-aos="fade-left"
-        data-aos-delay="900"
-        data-aos-duration="900"
+        
       />
       <span
         class="text-white font-Golos font-bold text-[22px] mobile:text-[33px] md:text-[41px] 1025:text-[44px] leading-[100%] tracking-0"
